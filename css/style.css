@@ -1,0 +1,103 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  /* border: 2px solid blue; */
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Universal Style */
+
+p {
+  margin: 0.8rem;
+  color: #707070;
+}
+#main {
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+  background-color: rgb(228, 228, 228);
+  margin: 2rem 0.5rem;
+  padding-bottom: 3rem;
+}
+
+#title {
+  /* text-transform: uppercase; */
+  margin: 2rem;
+  font-size: xx-large;
+  color: #333333;
+  text-align: center;
+}
+
+#myp {
+  margin: 2rem 0rem 1rem 0rem;
+  color: #707070;
+  /* font-weight: bold; */
+  text-align: center;
+}
+
+#img-div {
+  /* border: 2px dashed red; */
+  background-color: white;
+  margin: 1rem;
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+#image {
+  width: 70%;
+
+  margin: 1rem auto;
+  border-radius: 10px;
+
+  /* max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+  border-radius: 10px; */
+}
+
+#img-caption {
+  /* border: 2px solid red; */
+  margin-bottom: 1rem;
+}
+
+#main h3 {
+  /* border: 2px solid blue; */
+  color: #333333;
+  text-align: center;
+  margin-top: 2vw;
+}
+
+#tribute-info {
+  /* border: 2px solid red; */
+  width: 50%;
+  display: flex;
+  margin: 1rem auto;
+  flex-flow: column;
+}
+
+#main li {
+  /* border: 2px dashed yellow; */
+  margin: 1.5rem 0;
+  color: #707070;
+}
+
+strong {
+  color: #333333;
+}
+
+blockquote {
+  width: 30%;
+  margin: 4rem auto;
+  color: #707070;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #333333;
+}
